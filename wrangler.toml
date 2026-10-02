@@ -1,0 +1,15 @@
+name = "velora-backend"
+main = "src/index.js"
+compatibility_date = "2026-09-30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "velora"
+database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "velora-storage"
+
+[vars]
+APP_NAME = "VeloraGames"
